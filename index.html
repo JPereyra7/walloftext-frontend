@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/style.css">
+  <script src="/src/index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form class="registration" method="post">
+        <img class="logo" src="/src/img/wotvector.png" alt="">
+      <label class="pure-material-textfield-outlined">
+        <textarea
+          id="textMessage"
+          placeholder="Type your message..."
+          type="text"
+          rows="4"
+          cols="40"
+        ></textarea>
+      </label>
+
+      <button id="submit" class="submitButton" type="submit">
+        Push
+      </button>
+    </form>
+
+    <div class="card" id="cardContainer">
+      <p class="post-text" id="actualMessageContainer"></p>
+    </div>
+  </div>
+</body>
+</html>
