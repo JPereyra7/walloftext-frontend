@@ -1,7 +1,7 @@
 # Wall of Text
 ![alt text](https://github.com/JPereyra7/walloftext-frontend/blob/main/src/img/ghscreenhot.png?raw=true)
 
-Url 🔗:
+Url 🔗: https://wall-of-text.netlify.app/
 
 This project works as a mini-twitter. Here users can leave inspiring posts for others to see and interact with. 
 
