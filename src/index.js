@@ -1,12 +1,14 @@
 const cardContainer = document.getElementById("cardContainer");
 const textMessage = document.getElementById("textMessage");
 const submitButton = document.getElementById("submit");
-const actualMessageContainer = document.getElementById("actualMessageContainer");
+const actualMessageContainer = document.getElementById(
+  "actualMessageContainer"
+);
 
 submitButton.addEventListener("click", async (e) => {
   e.preventDefault();
 
-  const url = "http://localhost:3000/createMessage";
+  const url = "https://walloftext-986d8e27f640.herokuapp.com/walloftexts";
   const method = "POST";
 
   const message = {
@@ -36,7 +38,7 @@ submitButton.addEventListener("click", async (e) => {
 });
 
 async function renderAllMessages() {
-  const url = "http://localhost:3000/getAllMessages";
+  const url = "https://walloftext-986d8e27f640.herokuapp.com/walloftexts";
   const method = "GET";
 
   try {
