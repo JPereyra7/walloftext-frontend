@@ -30,7 +30,7 @@ submitButton.addEventListener("click", async (e) => {
       console.error("Failed to send message");
     } else {
       await renderAllMessages();
-      location.reload(); //Reloads the page everytime a message is sent!
+      // location.reload(); //Reloads the page everytime a message is sent!
     }
   } catch (err) {
     console.error(err, "server failed");
