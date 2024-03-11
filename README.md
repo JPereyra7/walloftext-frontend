@@ -7,6 +7,9 @@ This project works as a mini-twitter. Here users can leave inspiring posts for o
 
 Will upload the backend database to a web-host later on - In the meantime I have pushed the frontend repo to Netlify.
 
+-- Update --
+Deployed to Heroku 🚀
+
 Technologies used for this project
 || Frontend || 
 - Javascript ✅
@@ -23,5 +26,8 @@ Technologies used for this project
 - Nodemon ✅
 - Cors ✅
 - ORM (Sequelize) ✅
+
+Note from dev:
+- Converted this project and migrated to MongoDb prior to deploying the backend to Heroku.  
 
 Backend Repo 🔗: https://github.com/JPereyra7/walloftext-backend
