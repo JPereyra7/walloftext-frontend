@@ -3,9 +3,9 @@
 
 Url 🔗: https://wall-of-text.netlify.app/
 
-This project works as a mini-twitter. Here users can leave inspiring posts for others to see and interact with. 
+This project works as a mini-twitter. Here users can leave inspiring posts for others to see and interact with. The database were made using MongoDB and REST Api created for CRUD operations - Created endpoints for GET and for POST.
 
-Will upload the backend database to a web-host later on - In the meantime I have pushed the frontend repo to Netlify.
+I pushed the database to Heroku - The Frontend was pushed to Netlify.
 
 -- Update --
 Deployed to Heroku 🚀
